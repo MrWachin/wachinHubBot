@@ -4,6 +4,7 @@
   "description": "Report in slack who win in the daily guachinHub commit competition.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "npm test"
   },
   "repository": {
