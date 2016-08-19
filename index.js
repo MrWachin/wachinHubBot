@@ -81,6 +81,14 @@ var bot = controller.spawn({
 }).startRTM();
 
 
+//prepare the webhook
+controller.setupWebserver(process.env.PORT || 3001, function(err, webserver) {
+    controller.createWebhookEndpoints(webserver, bot, function() {
+        // handle errors...
+    });
+});
+
+
 controller.hears(['hello', 'hi', 'hola'], 'direct_message,direct_mention,mention', function(bot, message) {
 
     bot.api.reactions.add({
