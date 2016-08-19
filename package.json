@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/MrWachin/wachinHubBot/issues"
   },
-  "homepage": "https://github.com/MrWachin/wachinHubBot#readme"
+  "homepage": "https://github.com/MrWachin/wachinHubBot#readme",
+  "dependencies": {
+    "botkit": "^0.2.2"
+  }
 }
