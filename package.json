@@ -1,0 +1,25 @@
+{
+  "name": "wachin-hub-bot",
+  "version": "0.0.1",
+  "description": "Report in slack who win in the daily guachinHub commit competition.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrWachin/wachinHubBot.git"
+  },
+  "keywords": [
+    "wachin",
+    "guachin",
+    "bot",
+    "slack"
+  ],
+  "author": "MrWachin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrWachin/wachinHubBot/issues"
+  },
+  "homepage": "https://github.com/MrWachin/wachinHubBot#readme"
+}
